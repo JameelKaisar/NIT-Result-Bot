@@ -1,0 +1,26 @@
+{
+  "name": "nit-result-bot",
+  "description": "NIT Result Bot",
+  "repository": "https://github.com/JameelKaisar/NIT-Result-Bot",
+  "stack": "heroku-18",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku-community/apt"
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Get BOT_TOKEN from https://t.me/BotFather"
+    },
+    "ADMIN_ID": {
+      "description": "Get ADMIN_ID from https://t.me/userinfobot"
+    },
+    "TESSDATA_PREFIX": {
+      "description": "Run 'find -iname tessdata' in Console!",
+      "value": "./.apt/usr/share/tesseract-ocr/4.00/tessdata"
+    }
+  }
+}
