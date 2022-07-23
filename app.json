@@ -2,6 +2,7 @@
   "name": "nit-result-bot",
   "description": "NIT Result Bot",
   "repository": "https://github.com/JameelKaisar/NIT-Result-Bot",
+  "stack": "heroku-22",
   "buildpacks": [
     {
       "url": "heroku/python"
