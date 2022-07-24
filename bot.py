@@ -155,7 +155,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
 
 
 def about(update: Update, context: CallbackContext) -> None:
-  update.message.reply_markdown(f"*About this Bot:*\n\nLanguage: Python\n\nLibraries: Python Telegram Bot, Selenium, Chromium, PyTesseract, OpenCV, NumPy and Unidecode\n\nInitial Release: July 8, 2021\n\nCreator: [Jameel Kaisar](tg://user?id={ADMIN_ID}) (_Ajmi_)\n\nBatch: IT 2020 (2020BITE001)\n\nSource Code: [GitHub](https://github.com/JameelKaisar)")
+  update.message.reply_markdown(f"*About this Bot:*\n\nLanguage: Python\n\nLibraries: Python Telegram Bot, Selenium, Chromium, PyTesseract, OpenCV, NumPy and Unidecode\n\nInitial Release: July 8, 2021\n\nCreator: [Jameel Kaisar](tg://user?id={ADMIN_ID}) (_Ajmi_)\n\nBatch: IT 2020 (2020BITE001)\n\nSource Code: [GitHub](https://github.com/JameelKaisar/NIT-Result-Bot)")
 
 
 def command(update: Update, context: CallbackContext) -> None:
